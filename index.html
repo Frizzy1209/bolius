@@ -1,6 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="shortcut icon"
+          href="//de7ps54rd7sof.cloudfront.net/typo3conf/ext/bolius_boliusdk/Resources/Public/Images/favicons/boliusfavicon.ico"
+          type="image/x-icon">
+
     <link rel="stylesheet" href="style.css">
 
     <meta name="viewport" content="width=device-width,initial-scale=1">
@@ -20,7 +24,7 @@
                 </div>
 
                 <div>
-                    <img class="logoImg" src="Bolius_logo.png">
+                    <img class="logoImg" src="https://de7ps54rd7sof.cloudfront.net/typo3conf/ext/bolius_boliusdk/Resources/Public/Images/svg/Videncentret_Bolius.svg">
                 </div>
 
 
@@ -40,20 +44,113 @@
             <h2> Førstegangskøb </h2>
             <p> Find ud af hvor meget du kan låne ved hjælp af vores låneberegner.
                 Få en vejledende beregning på hvor meget du kan låne </p>
+        </div>
+
+
+        <div class="introText">
+            <h3> Hvad er et boliglån? </h3>
+            <p>
+                For mange førstegangskøbere kan boliglån virke som det vilde vesten.
+                Begreber som kurser, renter, terminer osv. kan virke forvirrende,
+                men i denne artikelserie vil vi gå i dybden med boliglån som førstegangskøber.
+            </p>
+
+            <h3> Viden om boliglån </h3>
+            <p>
+                Et boliglån er et lån, der bruges til at finansiere køb eller renovering af ejendomme.
+                Et boliglån har normalt lavere rentesatser end andre typer lån,
+                fordi det er sikret af ejendommen.
+                For at kunne få et boliglån er der en række krav der skal opfyldes
+            </p>
+            <p>
+                Kravene til et boliglån varierer fra långiver til långiver (banken),
+                men der er nogle fælles aspekter, som alle långivere bør overveje.
+                Nogle af disse krav omfatter en kredithistorik, økonomisk soliditet, formue og indkomst.
+                Derudover har långivere ofte krav om, at låntager skal være mindst 18 år og have et fast arbejde med en indtægt.
+                De fleste banker kræver at man har et fast arbejde,
+                så hvis man er studerende og vil ind på boligmarkedet må man overveje at leje.
+            </p>
+            <p>
+                Bidragssatsen er den procentdel af lånet, som långiveren kræver,
+                at låntageren betaler først.
+                Bidragssatsen varierer fra långiver til långiver,
+                men det kan være mellem 5% og 20%. Bidragssatsen er udbetalingen til lånet,
+                og man skal som minimum have 5% til egen udbetaling.
+                Resten kan blive dækket af et banklån (Obs på at det har en høj rente ift. realkreditlån)
+            </p>
+            <p>
+                Prøv vores låneberegner, og se hvor meget du kan låne.
+                Indtast din husstands bruttoindkomst, og din egen udbetaling til boligen.
+            </p>
+        </div>
+
+
+        <div class="calculatorContainer">
+
+            <form class="calculator" >
+                Årlig Bruttoindkomst :
+                <input type="text" id="firstNumber" /><br>
+
+                Egen udbetaling (min. 5 %) :
+                <input type="text" id="secondNumber" /><br>
+            </form>
+
+            <button class="getNumber" > Udregn </button>
+
+            <p> Du kan låne :
+            <span id= "result"> </span> </p>
 
         </div>
 
-        <div class="calculater">
-            <h3> Indtast dit nuværende beløb her </h3>
-            <input type="text">
+        <div class="calculatorText">
+            <i>
+                I feltet med årlig bruttoindkomst skal du indtaste din husstands årlige indkomst før skat,
+                i egen udbetaling skal du indtaste hvor meget du vil lægge til udbetaling,
+                dog skal dette være minimum 5% af boligens værdi.
+            </i>
         </div>
 
+        <div>
+            <h3> Tænk langsigtet </h3>
+            <p>
+                Er boligkøb noget for dig som førstegangskøb?
+                Hvis du kun skal bo i boligen 3-5år, kan det bedre svare sig at leje.
+                Især i disse tider med høje renter, kan det være attraktivt at leje, og se tiden an.
+            </p>
+            <h3> Hvorfor kan man ikke få realkreditlån til andelsbolig? </h3>
+            <p>
+                En anden vej at komme ind på boligmarked er med en andelsbolig.
+                Andelsboligerne er typisk billigere end ejerboligerne,
+                men kan være svære at få fat i grundet efterspørgslen,
+                især de større byer.
+            </p>
+            <p>
+                Dog kan man ikke få et realkreditlån i en andelsbolig,
+                da realkreditlån kan ikke bruges til at finansiere andelsboliger,
+                fordi andelsboliger ikke er sikret af ejendom.
+                Derfor kan en långiver ikke sikre boliglånet ved at sætte pant i ejendommen.
+            </p>
+        </div>
     </main>
 
     <footer>
+        <div class="footerSplitter">
+
+        </div>
+
+        <div class="aboutUs">
+            <img class="logoImg" src="https://de7ps54rd7sof.cloudfront.net/typo3conf/ext/bolius_boliusdk/Resources/Public/Images/svg/Videncentret_Bolius.svg">
+
+        <p id="aboutUsText">
+            Videncentret Bolius A/S<br>
+            Jarmers Plads 2,<br>
+            1551 København V<br>
+            CVR-nr. 26444276</p>
+        </div>
 
     </footer>
 </body>
 
+<script src="main.js" > </script>
 </html>
 

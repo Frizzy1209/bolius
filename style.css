@@ -3,6 +3,10 @@
     font-family: Arial;
 }
 
+p {
+    font-size: 17px;
+}
+
 .logoImg {
     width: 90px;
 }
@@ -17,8 +21,11 @@
 
 .navbar {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
+
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 
@@ -53,6 +60,7 @@ li {
 
     padding-left: 10px;
     padding-right: 10px;
+    margin-top: 5px;
 }
 
 h2 {
@@ -64,7 +72,70 @@ h2 {
     font-size: 10px;
     font-weight: bold;
     color: #ddebeb;
-
 }
 
 
+
+
+
+.calculatorContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    padding-top: 20px;
+
+    background-color: #ddebeb;
+}
+
+.calculator {
+    display: flex;
+    flex-direction: column;
+
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.calculator input {
+    border-radius: 10px;
+    padding: 5px;
+    margin: 5px;
+
+    font-size: 17px;
+}
+
+.getNumber {
+    background-color: #ee5c47;
+    border: none;
+
+    color: white;
+    font-size: 17px;
+
+    padding: 5px;
+    width: 100px;
+}
+
+#result {
+    font-weight: bold;
+}
+
+
+
+
+
+.footerSplitter {
+    height: 35px;
+    background-color: #ddebeb;
+    margin-top: 35px;
+    margin-bottom: 35px;
+}
+
+
+.aboutUs {
+    padding-top: 25px;
+}
+
+#aboutUsText {
+    font-size: 14px;
+}
