@@ -120,6 +120,15 @@ h2 {
     font-weight: bold;
 }
 
+#interestRateImg {
+    width: 350px;
+    padding: 10px;
+}
+
+#source {
+    font-size: 14px;
+}
+
 
 
 
@@ -131,11 +140,12 @@ h2 {
     margin-bottom: 35px;
 }
 
-
 .aboutUs {
     padding-top: 25px;
 }
 
 #aboutUsText {
     font-size: 14px;
+
+    padding-bottom: 15px;
 }
