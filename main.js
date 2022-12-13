@@ -15,3 +15,10 @@ calculateBtn.addEventListener('click', function ()
 
 
 
+ChatbotLink = document.querySelector('#button')
+
+ChatbotLink.addEventListener('click', function() {
+    window.open('https://beta.openai.com/playground')
+
+})
+
