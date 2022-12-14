@@ -44,6 +44,13 @@ li {
     color: #3e5959;
 }
 
+.computerNav {
+    display: none;
+}
+
+
+
+
 
 
 
@@ -180,3 +187,67 @@ h2 {
 
     padding-bottom: 15px;
 }
+
+
+@media only screen and (min-width: 900px) {
+
+    .computerNav {
+        display: flex;
+        justify-content: space-around;
+
+        margin: 10px;
+
+        font-size: 20px;
+    }
+
+    .navbarContainer {
+        display: none;
+    }
+
+    .headline {
+        height: 400px;
+
+        padding-left: 200px;
+        padding-right: 200px;
+    }
+
+    .headline h2 {
+        font-size: 70px;
+    }
+
+    #tema {
+        font-size: 20px;
+    }
+
+    .introText {
+        padding-left: 200px;
+        padding-right: 200px;
+    }
+
+    .calculatorContainer {
+        padding-left: 200px;
+        padding-right: 200px;
+    }
+
+    .calculatorText {
+        padding-left: 200px;
+        padding-right: 200px;
+    }
+
+    .renter {
+        padding-left: 200px;
+        padding-right: 200px;   
+    }
+
+    .chatbot {
+        padding-left: 200px;   
+        padding-right: 200px;
+    }
+
+    .aboutUs {
+        padding-left: 200px;  
+        padding-left: 200px;
+    }
+}
+
+
